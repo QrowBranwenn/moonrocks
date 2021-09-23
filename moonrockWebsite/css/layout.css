@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Pacifico&display=swap');
+
+body {
+    margin: 0px;
+    background-image: url("images/moonSurface.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Pacifico';
+    color: darkslategrey;  
+}
+
+nav {
+    padding: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 10px;
+    min-width: 50em;
+}
+
+main {
+    min-height: 100rem;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Kanit';
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+article {
+    padding: 10px;
+    background-color: slategray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    min-width: 50em;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+footer {
+    padding: 10px;
+    bottom: 0px;
+    left: 0%;
+    right: 0%;
+    background: linear-gradient(rgb(50, 55, 70), slategray);
+    min-height: 100px;
+    text-align: center;
+}
+
+img {
+    border-radius: 30px;
+}
+
+article .aboutPage {
+    padding: 60px;
+}
+
+.pacifico {
+    font-family: 'Pacifico';
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.button {
+    background-color: slategray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-style: outset;
+    border-color: slategray;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+#noUnderline {
+    text-decoration: none;
+    color: black;
+}
+#alignLeft {
+    text-align: left;
+}
+
+#largeFont {
+    font-size: large;
+}
+
+#excessPadding {
+    padding-left: 250px;
+    padding-right: 250px;
+}
